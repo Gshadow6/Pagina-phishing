@@ -41,22 +41,16 @@ npm run dev
    1.1 **Para Instalar node y dependencias de astro**
        Tener instalado curl, en el caos de no tenerlo se instala con el siguiente comando
    
-       ```
        sudo apt install curl
-       ```
    
    Luego, añade el repositorio NodeSource e instala Node.js:
    
-       ```
        curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
        sudo apt install -y nodejs
-       ```
    
    También instalar las dependencias de Astro en el directorio del proyecto.
    
-       ```
        npm install
-       ```
 
 3. **Ejecutar el siguiente comando en cada carpeta(servidor y facebook clon)**
 
