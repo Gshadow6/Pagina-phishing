@@ -48,7 +48,7 @@ npm run dev
        curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
        sudo apt install -y nodejs
    
-   También instalar las dependencias de Astro en el directorio del proyecto.
+   También instalar las dependencias de Astro en las dos carpetas del proyecto.
    
        npm install
 
@@ -76,6 +76,7 @@ npm run dev
 
 5. **Revisar la carpeta server/bd**
     - Se creo un archivo.txt con el nombre del correo, que tiene sus credenciales
+    - Esto se verá tambien en la terminal de la carpeta server
 
 ## Vector inicial
 El usuario ingresaria a la pagina por medio de google, pagando por publicidad para que aparezca en los primeros resultados y al querer ingresar sus credenciales las manda a un servidor
