@@ -14,8 +14,8 @@ Una vez sea clonado el repositorio debemos descargar los node_modules con el sig
 
 ```
 npm i
-
 ```
+
 **Nota: Este comando unicamente debe ser ejecutado para el proyecto facebook-clon.**
 
 Ejecutar el servidor de prueba:
@@ -38,25 +38,25 @@ npm run dev
    - Sistema operativo Linux.
    - Tener instalado node.js
 
-1.1 **Para Instalar node y dependencias de astro**
-    Tener instalado curl, en el caos de no tenerlo se instala con el siguiente comando
-
-    ```
-    sudo apt install curl
-    ```
-
-    Luego, añade el repositorio NodeSource e instala Node.js:
-
-    ```
-    curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-    sudo apt install -y nodejs
-    ```
-
-    También instalar las dependencias de Astro en el directorio del proyecto.
-
-    ```
-    npm install
-    ```
+   1.1 **Para Instalar node y dependencias de astro**
+       Tener instalado curl, en el caos de no tenerlo se instala con el siguiente comando
+   
+       ```
+       sudo apt install curl
+       ```
+   
+   Luego, añade el repositorio NodeSource e instala Node.js:
+   
+       ```
+       curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+       sudo apt install -y nodejs
+       ```
+   
+   También instalar las dependencias de Astro en el directorio del proyecto.
+   
+       ```
+       npm install
+       ```
 
 3. **Ejecutar el siguiente comando en cada carpeta(servidor y facebook clon)**
 
