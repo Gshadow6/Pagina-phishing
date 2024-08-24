@@ -81,7 +81,8 @@ npm run dev
 El usuario ingresaria a la pagina por medio de google, pagando por publicidad para que aparezca en los primeros resultados y al querer ingresar sus credenciales las manda a un servidor
 
 ## Casos de uso
-   - Registro de credenciales en un archivo.txt
-
+   1. Registro de credenciales en un archivo.txt
+      - Caso: El usuario pone sus credenciales en la pagina login facebook clon y darle al boton Iniciar sesion
+      - Resultado: Mandará una alerta y lo redireccionará a otra pagina, guardando las credenciales ingresadas en un archivo.txt en sl servidor 
 ## Notas
 Este proyecto se hizo para una tarea de hacer una pagina de phishing, de la materia de seguridad informatica en FES Aragon
